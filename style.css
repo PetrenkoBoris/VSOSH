@@ -41,3 +41,48 @@ dfn{
     position: relative;
     padding-top: 10px;
 }
+
+ul li:hover{
+    background-color: orange;
+    font-size: large;
+    transition: all 0.4s ease-in-out;
+}
+
+ul li {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 25%;
+    border-width: 1px;
+    border-style: solid;
+
+    padding: 3px;
+    text-align: center;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+
+p{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+
+button:hover{
+    background-color: orange;
+    color : white;
+    transition: all 0.2s ease-in-out;
+}
